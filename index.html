@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>
+
+    </title>
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/tachyons.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Work+Sans:300,400,500,600" rel="stylesheet">
+  </head>
+  <body class="pv6">
+    <div id="intro" class="w-50 center pb4 mb5 bw2 bb b--black-80">
+      <h1 class="f3 fw5 lh-title">Welcome to Invoice</h1>
+      <p class="lh-copy f5">Invoice helps you generate invoices for freelance or contract work.</p>
+    </div>
+    <div id="user-info" class="w-50 center">
+      <h2 class="f4 lh-title fw5 pb3">Let's start with some info about you.</h2>
+      <form class="black-80 flex flex-wrap pb4">
+        <div class="w-50 pb3 pr3">
+          <label for="name" class="f6 b db mb2 fw5">Name</label>
+          <input id="userName" class="input-reset ba b--black pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+        </div>
+        <div class="w-50 pb3 pl3">
+          <label for="name" class="f6 b db mb2 fw5">Street</label>
+          <input id="userStreet" class="input-reset ba b--black pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+        </div>
+        <div class="w-50 pb3 pr3">
+          <label for="name" class="f6 b db mb2 fw5">City</label>
+          <input id="userCity" class="input-reset ba b--black pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+        </div>
+        <div class="w-50 pb3 pl3">
+          <label for="name" class="f6 b db mb2 fw5">State</label>
+          <input id="userState" class="input-reset ba b--black pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+        </div>
+        <div class="w-50 pb3 pr3">
+          <label for="name" class="f6 b db mb2 fw5">Zip</label>
+          <input id="userZip" class="input-reset ba b--black pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+        </div>
+      </form>
+      <a href="#0" class="f5 no-underline black bg-animate hover-bg-black hover-white inline-flex items-center pv3 ph5 ba border-box mb5">
+        <span class="pr1">Next</span>
+        <svg class="w1" data-icon="chevronRight" viewBox="0 0 32 32" style="fill:currentcolor">
+          <title>chevronRight icon</title>
+          <path d="M12 1 L26 16 L12 31 L8 27 L18 16 L8 5 z"></path>
+        </svg>
+      </a>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>

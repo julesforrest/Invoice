@@ -1,2 +1,2 @@
 # Invoice
-Generate invoices for freelance or contract work
+Easily generate invoices to get paid for freelance or contract work.
